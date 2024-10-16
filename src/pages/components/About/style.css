@@ -1,0 +1,210 @@
+.page__container.about-page {
+  background: rgb(251, 245, 255);
+  background: linear-gradient(0deg, rgb(245, 228, 255) 0%, rgb(225, 252, 255) 100%);
+  width: 100vmax;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  max-width: 900px;
+  padding: 10% 5%;
+}
+
+.about__main {
+  display: flex;
+  margin-bottom: 10%;
+  align-items: center;
+}
+
+.about__title {
+  margin: 2rem 0;
+}
+
+.about__text {
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.about__text>a {
+  color: #9424ad;
+}
+
+.about__text>a:hover {
+  color: #c84ce4;
+}
+
+.about__description{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.about__skills {
+  margin: 4rem 0 8rem;
+}
+
+.skills__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: 5rem 0;
+}
+
+.skills__icons i {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 108px;
+  width: 108px;
+  font-size: 4.5rem;
+  color: #333;
+}
+
+.skills__icons i:hover {
+  color: #9424ad;
+  transform: scale(1.2);
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 108px;
+}
+
+.core-icon path {
+  fill: #333;
+  width: 90px;
+}
+
+.core-icon:hover path {
+  fill: #9424ad;
+}
+
+.skills__title {
+  font-size: 0.8rem;
+  font-style: normal;
+}
+
+.up__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+  ;
+}
+
+.up__btn:hover {
+  color: white;
+  background-color: #9424ad;
+  font-size: 1.5rem;
+  transform: scale(1.2);
+}
+
+.photo__Kristyna {
+  background-color: gray;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+
+@media (max-width: 980px) {
+
+  .about__content {
+  padding-top: 10%;
+  }
+
+}
+
+@media (max-width: 830px) {
+
+  .about__main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about__text {
+    padding: 0 10%;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .photo__Kristyna {
+    margin: 2rem 0;
+    height: 200px;
+    width: 200px;
+  }
+  .skills__icons {
+    gap: 2rem;
+  }
+
+  .skills__icons i {
+    font-size: 3.5rem;
+  }
+
+  .icon {
+    height: 56px;
+  }
+}
+
+@media (max-width: 580px) {
+
+  .about__title {
+    padding: 0 30%;
+  }
+
+  .about__text {
+    padding: 0 30%;
+  }
+
+  .about__description{
+    font-size: 0.9rem;
+  }
+
+  .about__skills {
+    margin: 4rem 0 0;
+  }
+
+  .skills__icons {
+    padding: 0 20%;
+    gap: 2px;
+  }
+
+  .skills__icons i {
+    font-size: 2.5rem;
+  }
+
+  .icon {
+    height: 40px;
+  }
+
+  .up__btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .up__btn:hover {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 390px) {
+
+  .about__text>a {
+    color: #9424ad;
+  }
+
+}
