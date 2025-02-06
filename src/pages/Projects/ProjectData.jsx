@@ -5,10 +5,12 @@ import Lashesweb from './img/lashes_sochova.jpg';
 
 export const projects = [
   {
-    title: 'Probíhá...',
+    title: 'KarolinaLashes.cz',
     description:
-      'Právě probíhá příprava na další projekt... 😈 😈 😈 ',
+      'Na míru vytvořený web pro klientku z oblasti kosmetických služeb. Grafický návrh vznikl ve Figmě. Protože se jedná primárně o prezentační web, zvolila jsem technologie HTML5, CSS3 a JavaScript. Stránky byly optimalizovány základním SEO a připraveny pro budoucí rozšíření, včetně propojení se sociálními sítěmi, jakmile je klientka bude mít k dispozici.',
     imageUrl: Lashesweb,
+    codeLink: 'https://github.com/Kaykay-nova/KarolinaLashes',
+    projectLink: 'https://www.karolinalashes.cz/',
   },
   {
     title: 'Balance Pal',
