@@ -1,14 +1,14 @@
 import BalancePalImg from './img/BalancePal.jpg';
 import ProjektBalanceImg from './img/O_projektu.jpg';
 import PiskvorkyImg from './img/Piskvorky.jpg';
-import KoleckoImg from './img/kolecko.png';
+import Lashesweb from './img/lashes_sochova.jpg';
 
 export const projects = [
   {
     title: 'Probíhá...',
     description:
       'Právě probíhá příprava na další projekt... 😈 😈 😈 ',
-    imageUrl: KoleckoImg,
+    imageUrl: Lashesweb,
   },
   {
     title: 'Balance Pal',
