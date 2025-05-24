@@ -45,31 +45,37 @@ const About = forwardRef((props, ref) => {
           <div className="about__main">
             <div className="about__text">
               <p>
-              Vždy jsem měla silný cit pro vizuální estetiku. Už od mládí jsem
-              kreslila a tvořila, což mě později přivedlo ke grafice –
-              připravovala jsem vizuály pro tisk, web i sociální sítě. Právě
-              tato zkušenost mi dala základní vnímání kompozice, barev i celkové
-              atmosféry vizuálního obsahu.
-            </p>
-            <p>
-              Při správě webových stránek jsem si postupně začala všímat, jak
-              důležité je nejen co je na stránce, ale jak to působí na
-              návštěvníka. Tato potřeba mě dovedla k základům kódování a programování 
-              – absolvovala jsem několik kurzů webového vývoje, kde jsem si
-              osvojila HTML, CSS, JavaScript a React.
-            </p>
-            <p>
-              I když mě kódování baví, brzy jsem pochopila, že mě nejvíce
-              motivuje uživatelský zážitek, atmosféra designu a smysluplnost
-              rozhraní. Proto jsem se rozhodla zaměřit na UX/UI design – oblast,
-              kde se přirozeně propojuje moje vášeň pro estetiku, empatii a
-              tvorba funkčních digitálních řešení.</p>
+                Vždy jsem měla silný cit pro vizuální estetiku. Už od mládí jsem
+                kreslila a tvořila, což mě později přivedlo ke grafice –
+                připravovala jsem vizuály pro tisk, web i sociální sítě. Právě
+                tato zkušenost mi dala základní vnímání kompozice, barev i
+                celkové atmosféry vizuálního obsahu.
+              </p>
+              <p>
+                Při správě webových stránek jsem si postupně začala všímat, jak
+                důležité je nejen co je na stránce, ale jak to působí na
+                návštěvníka. Tato potřeba mě dovedla k základům kódování a
+                programování – absolvovala jsem několik kurzů webového vývoje,
+                kde jsem si osvojila HTML, CSS, JavaScript a React.
+              </p>
+              <p>
+                I když mě kódování baví, brzy jsem pochopila, že mě nejvíce
+                motivuje uživatelský zážitek, atmosféra designu a smysluplnost
+                rozhraní. Proto jsem se rozhodla zaměřit na UX/UI design –
+                oblast, kde se přirozeně propojuje moje vášeň pro estetiku,
+                empatii a tvorba funkčních digitálních řešení.
+              </p>
             </div>
-            <img
-              className="photo__Kristyna"
-              src={foto}
-              alt="Kristýna Konečná"
-            />
+            <div className='about__photo'>
+              <img
+                className="photo__Kristyna"
+                src={foto}
+                alt="Kristýna Konečná"
+              />
+              <a href="/contact" className="btn btn-contact">
+                <button>Spojme se!</button>
+              </a>
+            </div>
           </div>
 
           <h2 className="about__title" id="about">
@@ -129,7 +135,7 @@ const About = forwardRef((props, ref) => {
         <div className="about__skills">
           <h2 className="about__title">Dovednosti a používané nástroje</h2>
           <div className="skills__icons">
-          <i className="skills__icon">
+            <i className="skills__icon">
               {figmaIcon}
               <span className="skills__title">Figma</span>
             </i>
