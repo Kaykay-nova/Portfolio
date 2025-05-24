@@ -65,7 +65,7 @@ const HomePage = () => {
                 isSecondTextVisible ? 'slide-in' : 'slide-out'
               }`}
             >
-              Web Developer & Designer
+              UX/UI & Web Designer
             </p>
             <p
               className={`homepage-text ${

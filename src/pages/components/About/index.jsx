@@ -2,10 +2,23 @@ import './style.css';
 import React, { forwardRef } from 'react';
 import foto from './img/photo_me_design.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faHtml5, faCss3Alt, faReact, faGitAlt, faFigma, faNodeJs,} from '@fortawesome/free-brands-svg-icons';
+import {
+  faJs,
+  faHtml5,
+  faCss3Alt,
+  faReact,
+  faGitAlt,
+  faFigma,
+  faNodeJs,
+} from '@fortawesome/free-brands-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import CIcon from '@coreui/icons-react';
-import { cibAdobePhotoshop, cibNextJs, cibAdobeIndesign, cibCanva,} from '@coreui/icons';
+import {
+  cibAdobePhotoshop,
+  cibNextJs,
+  cibAdobeIndesign,
+  cibCanva,
+} from '@coreui/icons';
 
 const upIcon = <FontAwesomeIcon icon={faChevronUp} />;
 const jsIcon = <FontAwesomeIcon icon={faJs} />;
@@ -30,9 +43,28 @@ const About = forwardRef((props, ref) => {
             O mně
           </h1>
           <div className="about__main">
-            <p className="about__text">
-            Jsem začínající programátorka s kreativním přístupem a silným základem v oblasti designu. Postupně jsem se rozhodla přesunout do světa programování, kde se zaměřuji zejména na frontend. Díky absolvovaným kurzům jsem získala pevné technické základy, které nyní rozvíjím prostřednictvím vlastních projektů. Hledám příležitosti, kde bych mohla nadále růst, zlepšovat své technické schopnosti a zároveň využívat svou kreativitu při řešení zajímavých výzev a problémů.
+            <div className="about__text">
+              <p>
+              Vždy jsem měla silný cit pro vizuální estetiku. Už od mládí jsem
+              kreslila a tvořila, což mě později přivedlo ke grafice –
+              připravovala jsem vizuály pro tisk, web i sociální sítě. Právě
+              tato zkušenost mi dala základní vnímání kompozice, barev i celkové
+              atmosféry vizuálního obsahu.
             </p>
+            <p>
+              Při správě webových stránek jsem si postupně začala všímat, jak
+              důležité je nejen co je na stránce, ale jak to působí na
+              návštěvníka. Tato potřeba mě dovedla k základům kódování a programování 
+              – absolvovala jsem několik kurzů webového vývoje, kde jsem si
+              osvojila HTML, CSS, JavaScript a React.
+            </p>
+            <p>
+              I když mě kódování baví, brzy jsem pochopila, že mě nejvíce
+              motivuje uživatelský zážitek, atmosféra designu a smysluplnost
+              rozhraní. Proto jsem se rozhodla zaměřit na UX/UI design – oblast,
+              kde se přirozeně propojuje moje vášeň pro estetiku, empatii a
+              tvorba funkčních digitálních řešení.</p>
+            </div>
             <img
               className="photo__Kristyna"
               src={foto}
@@ -41,7 +73,7 @@ const About = forwardRef((props, ref) => {
           </div>
 
           <h2 className="about__title" id="about">
-            Rekvalifikace a kurzy
+            Vzdělávací kurzy
           </h2>
           <p className="about__text">
             <a
@@ -55,7 +87,8 @@ const About = forwardRef((props, ref) => {
             <span className="about__description">
               Práce s Gitem, HTML a CSS, Základní konstrukce jazyka JavaScript,
               bundlování, organizace kódu, komunikace se serverem, základy UX
-              designu, framework React.
+              designu, framework React. Ukončeno písemnou zkouškou a odevzdáním
+              a prezentací projektu “Balance Pal“.
             </span>
           </p>
 
@@ -96,6 +129,22 @@ const About = forwardRef((props, ref) => {
         <div className="about__skills">
           <h2 className="about__title">Dovednosti a používané nástroje</h2>
           <div className="skills__icons">
+          <i className="skills__icon">
+              {figmaIcon}
+              <span className="skills__title">Figma</span>
+            </i>
+            <i className="icon">
+              <CIcon icon={cibAdobePhotoshop} className="core-icon" />
+              <span className="skills__title">Photoshop</span>
+            </i>
+            <i className="icon">
+              <CIcon icon={cibAdobeIndesign} className="core-icon" />
+              <span className="skills__title">Indesign</span>
+            </i>
+            <i className="icon">
+              <CIcon icon={cibCanva} className="core-icon" />
+              <span className="skills__title">Canva</span>
+            </i>
             <i className="skills__icon">
               {htmlIcon}
               <span className="skills__title">Html5</span>
@@ -123,22 +172,6 @@ const About = forwardRef((props, ref) => {
             <i className="skills__icon">
               {gitIcon}
               <span className="skills__title">Git</span>
-            </i>
-            <i className="skills__icon">
-              {figmaIcon}
-              <span className="skills__title">Figma</span>
-            </i>
-            <i className="icon">
-              <CIcon icon={cibAdobePhotoshop} className="core-icon" />
-              <span className="skills__title">Photoshop</span>
-            </i>
-            <i className="icon">
-              <CIcon icon={cibAdobeIndesign} className="core-icon" />
-              <span className="skills__title">Indesign</span>
-            </i>
-            <i className="icon">
-              <CIcon icon={cibCanva} className="core-icon" />
-              <span className="skills__title">Canva</span>
             </i>
           </div>
         </div>

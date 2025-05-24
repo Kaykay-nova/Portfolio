@@ -17,7 +17,7 @@ const Footer = () => {
           Ochrana osobních údajů
         </a>
       </p>
-      <p>&copy; 2024 Kristýna Konečná | Všechna práva vyhrazena</p>
+      <p>&copy; 2025 Kristýna Konečná | Všechna práva vyhrazena</p>
 
       <div className="footer__links">
         <a

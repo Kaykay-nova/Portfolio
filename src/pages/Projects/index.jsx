@@ -76,10 +76,12 @@ const Projects = () => {
     <div className="page__container">
       <h1>Moje projekty</h1>
       <p className="project__intro">
-        Jako začínající programátor za sebou nemám mnoho projektů, ale postupně
-        je budu přidávat. 🙌 Mimo projekty níže, dokážu vytvořit i jednoduché
-        webové stránky, jako je například toto mé osobní portfolio. Stránky jsem
-        vytvořila ve frameworku React, abych otestovala nabité zkušenosti.
+        Jako junior UX/UI designérka si postupně tvořím své portfolio – zahrnuje
+        jak reálné, tak konceptuální projekty, které mi pomáhají rozvíjet
+        dovednosti a osobní styl. Níže najdete několik mých posledních prací.
+        Kromě nich dokážu vytvořit i jednoduché responzivní webové stránky,
+        například toto portfolio, které jsem sama navrhla a vytvořila v Reactu.
+        Další projekty brzy přibudou! 🙌
       </p>
 
       <div className="project__cards">
