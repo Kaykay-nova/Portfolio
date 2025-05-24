@@ -19,15 +19,16 @@ const Contact = () => {
   return (
     <div className="page__container">
       <ContactCard />
+
+      <a className="up__btn" onClick={handleScrollToForm}>
+        <i>{downIcon}</i>
+      </a>
+
       <p className="contact__main">
         Zajímá vás více o mé práci nebo máte zájem o spolupráci?
         <br />
         Zanechte mi zprávu a já se vám brzy ozvu.
       </p>
-
-      <a className="up__btn" onClick={handleScrollToForm}>
-        <i>{downIcon}</i>
-      </a>
 
       <h1 ref={formRef} className="contact-form__title">
         Kontaktní formulář
