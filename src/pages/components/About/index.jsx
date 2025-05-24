@@ -1,6 +1,6 @@
 import './style.css';
 import React, { forwardRef } from 'react';
-import foto from './img/photo_me_design.jpg';
+import foto from './img/photo_kone.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faJs,
