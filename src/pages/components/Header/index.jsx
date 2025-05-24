@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './style.css';
-import logo from './img/logo_inverz.png';
+import logo from './img/logo_kone.png';
 
 const Header = ({ handleScrollToHome }) => {
   const location = useLocation();
