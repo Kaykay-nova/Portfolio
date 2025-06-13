@@ -45,25 +45,13 @@ const About = forwardRef((props, ref) => {
           <div className="about__main">
             <div className="about__text">
               <p>
-                Vždy jsem měla silný cit pro vizuální estetiku. Už od mládí jsem
-                kreslila a tvořila, což mě později přivedlo ke grafice –
-                připravovala jsem vizuály pro tisk, web i sociální sítě. Právě
-                tato zkušenost mi dala základní vnímání kompozice, barev i
-                celkové atmosféry vizuálního obsahu.
+                Od mala jsem milovala kreslení a tvoření – estetika mě provází celý život. Postupně mě to přivedlo ke grafice, ve které jsem navrhovala vizuály pro tisk, web i sociální sítě. Díky této zkušenosti jsem získala cit pro kompozici, barvy i celkové vyznění vizuálního obsahu.
               </p>
               <p>
-                Při správě webových stránek jsem si postupně začala všímat, jak
-                důležité je nejen co je na stránce, ale jak to působí na
-                návštěvníka. Tato potřeba mě dovedla k základům kódování a
-                programování – absolvovala jsem několik kurzů webového vývoje,
-                kde jsem si osvojila HTML, CSS, JavaScript a React.
+                Při správě webů jsem si začala všímat, že nestačí jen dobře vypadat – důležité je i to, jak se stránky používají. Tato potřeba mě přivedla k webovému vývoji. V několika kurzech jsem se naučila základy HTML, CSS, JavaScriptu i frameworku React.
               </p>
               <p>
-                I když mě kódování baví, brzy jsem pochopila, že mě nejvíce
-                motivuje uživatelský zážitek, atmosféra designu a smysluplnost
-                rozhraní. Proto jsem se rozhodla zaměřit na UX/UI design –
-                oblast, kde se přirozeně propojuje moje vášeň pro estetiku,
-                empatii a tvorba funkčních digitálních řešení.
+                Brzy jsem ale pochopila, že mě nejvíce naplňuje hledání smysluplných řešení a to design, který je čistý i funkční. Proto jsem se rozhodla zaměřit na UX/UI design. Obor, kde se propojuje empatie, vizuální cit a logické myšlení. Chci tvořit digitální prostředí, které lidem usnadní život a bude na první pohled přívětivé.
               </p>
             </div>
             <div className='about__photo'>

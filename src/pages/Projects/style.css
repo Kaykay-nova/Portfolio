@@ -66,12 +66,15 @@
 
 .project__links {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 3rem;
+  margin-top: 1rem;
   gap: 1rem;
 }
 
 .gitHubIcon {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 /* Galerie fotek */

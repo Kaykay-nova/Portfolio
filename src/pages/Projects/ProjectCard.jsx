@@ -29,6 +29,18 @@ const ProjectCard = ({ project }) => {
             Kód <i className="gitHubIcon">{gitHubIcon}</i>
           </button>
         </a>
+        {project.caseStudyLink && (
+          <a
+            className="project__link"
+            href={project.caseStudyLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>
+              Case Study <i className="gitHubIcon">{chevronIcon}</i>
+            </button>
+          </a>
+        )}
         <a
           className="project__link"
           href={project.projectLink}

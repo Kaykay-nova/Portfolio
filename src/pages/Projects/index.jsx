@@ -76,12 +76,17 @@ const Projects = () => {
     <div className="page__container">
       <h1>Moje projekty</h1>
       <p className="project__intro">
-        Jako junior UX/UI designérka si postupně tvořím své portfolio – zahrnuje
-        jak reálné, tak konceptuální projekty, které mi pomáhají rozvíjet
-        dovednosti a osobní styl. Níže najdete několik mých posledních prací.
-        Kromě nich dokážu vytvořit i jednoduché responzivní webové stránky,
-        například toto portfolio, které jsem sama navrhla a vytvořila v Reactu.
-        Další projekty brzy přibudou! 🙌
+        <p className="project__intro">
+          V mém portfoliu najdete ukázky projektů, které vznikly buď jako reálné
+          zakázky, nebo jako koncepty v rámci vzdělávání. Soustředím se na
+          vizuálně čistý a funkční design – od návrhu až po technické řešení.
+          Nejvíce mě zajímá propojení estetiky s uživatelskou přívětivostí.
+          Portfolio, na které se právě díváte, jsem sama navrhla i vytvořila v
+          Reactu – chtěla jsem si vyzkoušet celý proces tvorby webu od návrhu po
+          kód. Momentálně se zaměřuji především na UX/UI design, ale díky základům
+          webového vývoje (HTML, CSS, JavaScript, React) mám lepší přehled o
+          možnostech technické realizace. Další projekty budou postupně přibývat! 🙌
+        </p>
       </p>
 
       <div className="project__cards">

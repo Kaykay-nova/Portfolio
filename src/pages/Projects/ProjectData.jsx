@@ -11,6 +11,7 @@ export const projects = [
     imageUrl: Lashesweb,
     codeLink: 'https://github.com/Kaykay-nova/KarolinaLashes',
     projectLink: 'https://www.karolinalashes.cz/',
+    caseStudyLink: '/karolinalashes-case-study',
   },
   {
     title: 'Balance Pal',
