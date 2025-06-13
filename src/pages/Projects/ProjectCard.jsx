@@ -33,8 +33,6 @@ const ProjectCard = ({ project }) => {
           <a
             className="project__link"
             href={project.caseStudyLink}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <button>
               Case Study <i className="gitHubIcon">{chevronIcon}</i>
