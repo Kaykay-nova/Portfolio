@@ -83,9 +83,7 @@ const Projects = () => {
           Nejvíce mě zajímá propojení estetiky s uživatelskou přívětivostí.
           Portfolio, na které se právě díváte, jsem sama navrhla i vytvořila v
           Reactu – chtěla jsem si vyzkoušet celý proces tvorby webu od návrhu po
-          kód. Momentálně se zaměřuji především na UX/UI design, ale díky základům
-          webového vývoje (HTML, CSS, JavaScript, React) mám lepší přehled o
-          možnostech technické realizace. Další projekty budou postupně přibývat! 🙌
+          kód. Momentálně se zaměřuji především na grafický design, ale oblast UX/UI je mi blízká a chci se v ní dále rozvíjet. Další projekty budou brzy přibývat! 🙌
         </p>
       </p>
 

@@ -17,7 +17,7 @@ const ContactCard = () => {
       <div>
         <div className="contact-text">
           <p>Kristýna Konečná</p>
-          <em>UX/UI designer</em>
+          <em>Graphic Designer & UX/UI Enthusiast</em>
         </div>
 
         <div className="contact-links">
