@@ -63,14 +63,51 @@ label[for="gdprConsent"] {
 }
 
 /* Stylování pro vizitku */
-.contact-card {
+.card-container {
+  perspective: 1000px;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto 6rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-container:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
   display: flex;
   align-items: center;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 6rem;
+  justify-content: center;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+  background-color: #fff;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .contact-logo-img {
@@ -83,7 +120,6 @@ label[for="gdprConsent"] {
 .contact-text {
   padding: 1rem;
   text-align: center;
-  font-weight: bold;
 }
 
 .contact-text p {
@@ -134,10 +170,29 @@ label[for="gdprConsent"] {
   .contact-card{
     max-width: 560px;
   }
+  .card-container:hover {
+  transform: none;
+  }
+  .card-inner.flipped {
+  transform: rotateY(180deg);
+  }
 }
 
 @media (max-width: 450px) {
+  .card-container {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  padding-top: 100%; /
+  }
 
+  .card-inner {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
   .contact-card{
     width: 100%;

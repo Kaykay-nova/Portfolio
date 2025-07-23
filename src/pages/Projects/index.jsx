@@ -77,13 +77,7 @@ const Projects = () => {
       <h1>Moje projekty</h1>
       <p className="project__intro">
         <p className="project__intro">
-          V mém portfoliu najdete ukázky projektů, které vznikly buď jako reálné
-          zakázky, nebo jako koncepty v rámci vzdělávání. Soustředím se na
-          vizuálně čistý a funkční design – od návrhu až po technické řešení.
-          Nejvíce mě zajímá propojení estetiky s uživatelskou přívětivostí.
-          Portfolio, na které se právě díváte, jsem sama navrhla i vytvořila v
-          Reactu – chtěla jsem si vyzkoušet celý proces tvorby webu od návrhu po
-          kód. Momentálně se zaměřuji především na grafický design, ale oblast UX/UI je mi blízká a chci se v ní dále rozvíjet. Další projekty budou brzy přibývat! 🙌
+          V mém portfoliu najdete ukázky projektů, které vznikly buď jako reálné zakázky, nebo jako koncepty vytvořené v rámci vzdělávání. Soustředím se na vizuálně čistý a funkční design – od návrhu až po technické řešení. Nejvíce mě zajímá propojení estetiky s uživatelskou přívětivostí. Portfolio, na které se právě díváte, jsem sama navrhla i vytvořila v Reactu – chtěla jsem si vyzkoušet celý proces tvorby webu od návrhu po kód. Dál se rozvíjím v oblasti digitální tvorby – od grafického designu přes obsah až po UX/UI a technické souvislosti. Další projekty budou brzy přibývat! 🙌
         </p>
       </p>
 

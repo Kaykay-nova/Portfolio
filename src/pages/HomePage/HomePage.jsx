@@ -65,14 +65,14 @@ const HomePage = () => {
                 isSecondTextVisible ? 'slide-in' : 'slide-out'
               }`}
             >
-              Graphic Designer & UX/UI Enthusiast
+              Kreativní mysl s vášní pro design, obsah
             </p>
             <p
               className={`homepage-text ${
                 isFirstTextVisible ? 'slide-in' : 'slide-out'
               }`}
             >
-              Vítejte na mém osobním portfoliu
+              a uživatelsky přívětivá digitální řešení
             </p>
             <div
               className={`homepage__content--btn ${

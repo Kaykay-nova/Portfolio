@@ -45,13 +45,13 @@ const About = forwardRef((props, ref) => {
           <div className="about__main">
             <div className="about__text">
               <p>
-                Design mě provází od dětství. Začalo to kresbou a malbou, pokračovalo studiem na umělecké škole se zaměřením na design skla – a postupně mě to dovedlo ke grafice. Věnovala jsem se tvorbě vizuálů pro tisk, web i sociální sítě a přirozeně si začala všímat toho, jak důležitou roli hraje vizuální komunikace v digitálním světě.
+                Jsem nadšenec do grafického designu, UX/UI designu a digitálního prostředí obecně. Design mě provází už od dětství – začínala jsem u kresby a malby, studovala uměleckou školu se zaměřením na design skla a postupně se dostala ke grafice.
               </p>
               <p>
-                Při své práci jsem spravovala weby, e-shopy i sociální sítě a tvořila pro ně obsah. Zajímalo mě, jak stránky fungují, a tak jsem se naučila základy HTML, CSS, JavaScriptu i Reactu – díky tomu jsem si mohla vyzkoušet tvorbu vlastních webových projektů a lépe pochopit technické souvislosti.
+                Věnovala jsem se tvorbě vizuálů pro tisk, web i sociální sítě, spravovala obsah na webech a e-shopech a zajímala se i o technické pozadí digitálních projektů – díky tomu mám základy HTML, CSS, JavaScriptu a Reactu.
               </p>
               <p>
-               Dnes je mou hlavní vášní grafický design – práce s vizuální identitou, barvami, typografií i celkovou atmosférou vizuálů. Zároveň se zajímám o oblast UX/UI designu, ve které se chci dál rozvíjet. Baví mě hledat cesty, jak vizuál nejen zaujme, ale zároveň dobře funguje a je srozumitelný pro uživatele.
+               Baví mě hledat vizuálně čistá a funkční řešení, která mají smysl pro značku i uživatele. Neustále se učím a hledám nové výzvy, kde můžu propojit kreativitu s přehledem o digitálním prostředí.
               </p>
             </div>
             <div className='about__photo'>
